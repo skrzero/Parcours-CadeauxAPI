@@ -61,7 +61,7 @@ Créer une petite API REST qui permet de :
 ### 📌 Contraintes :
 - Utiliser uniquement des **requêtes préparées**
 - Répondre avec du **JSON**
-- 📦 **Captures demandées** : captures des tests sous Postman de chaque route (avec exemples de réponses).
+- 📦 **Captures demandées** : captures des tests sous Thunderclient ou Postman de chaque route (avec exemples de réponses).
 
 ---
 
