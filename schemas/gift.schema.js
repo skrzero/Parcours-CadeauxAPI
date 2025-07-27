@@ -3,13 +3,13 @@ const Joi = require('joi');
 //TODO: completer ici le schema
 const giftSchema = Joi.object({
     title:
-    Joi.string().max(255).required(),
+    Joi.string().min(3).max(255).required(),
     description:
-    Joi.string().allow(''),
+    Joi.string().allow('').optional(),
     price:
-    Joi.number(),
+    Joi.number().required(),
     reserved:
-    Joi.boolean()
+    Joi.boolean().optional()
 });
 
 module.exports = giftSchema;
