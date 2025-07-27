@@ -11,7 +11,7 @@ app.get('/', (req, res)=> {
 })
 app.use('/gifts', giftsRoutes);
 app.use(errorHandler);
-app.get('/gifts',giftsRoutes);
+
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
